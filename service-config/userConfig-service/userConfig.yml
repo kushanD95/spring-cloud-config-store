@@ -2,5 +2,3 @@ item:
   count:
     min: 1
     max: 10
-server:
-  port: 9191
