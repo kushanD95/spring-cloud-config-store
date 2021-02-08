@@ -20,5 +20,3 @@ security:
       client-id: mobile
       client-secret: pin
 # Security only for profile server run with oauth2 server - END
-server:
-  port: 9192
