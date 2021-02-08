@@ -11,6 +11,7 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
   application:
     name: profile
+# Security only for profile server run with oauth2 server - START
 security:
   oauth2:
     resource:
@@ -18,5 +19,6 @@ security:
     client:
       client-id: mobile
       client-secret: pin
+# Security only for profile server run with oauth2 server - END
 server:
   port: 9192
