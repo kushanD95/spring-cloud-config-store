@@ -19,4 +19,4 @@ security:
       client-id: mobile
       client-secret: pin
 server:
-  port: 9191
+  port: 9192
